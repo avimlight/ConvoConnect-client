@@ -15,7 +15,7 @@ const Login = lazy(() => import("./pages/Login"));
 const Chat = lazy(() => import("./pages/Chat"));
 const Groups = lazy(() => import("./pages/Groups"));
 const NotFound = lazy(() => import("./pages/NotFound"));
-const VideoCall = lazy(() => import("./video-call/page"));
+
 
 // Admin imports
 const AdminLogin = lazy(() => import("./pages/admin/AdminLogin"));
@@ -53,7 +53,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/chat/:chatId" element={<Chat />} />
             <Route path="/groups" element={<Groups />} />
-            <Route path="/video-call" element={<VideoCall />} />
+         
 
           </Route>
 
